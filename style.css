@@ -72,3 +72,39 @@
                     margin-left: 230px;
                 }
                 /* hot deal area ended */
+                /* latest deal area started */
+                
+                .latest {
+                    background-image: url(images/Rectangle\ 9.png);
+                    height: 100vh;
+                    background-repeat: no-repeat;
+                    margin: 128px 240px 128px 255px;
+                    height: 449px;
+                }
+                
+                .latest-content {}
+                
+                .deal-title {
+                    color: #272727;
+                    text-align: center;
+                    font-family: montserrat;
+                    font-size: 40px;
+                    font-weight: 800;
+                    padding-top: 122px;
+                    padding-left: 30px;
+                }
+                
+                .deal {
+                    padding-left: 450px;
+                }
+                
+                .email {
+                    background: white;
+                    width: 655px;
+                    height: 64px;
+                }
+                
+                .import {
+                    margin-left: 240px;
+                }
+                /* latest area ended */
