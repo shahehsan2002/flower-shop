@@ -1,150 +1,219 @@
-                * {
-                    margin: 0;
-                    padding: 0;
-                }
-                /* banner area started */
-                
-                .banner {
-                    gap: 97px;
-                    padding: 197px 240px 0px 240px;
-                    background: #E554731A;
-                    height: 100vh;
-                    display: flex;
-                    justify-content: space-between;
-                }
-                
-                .banner-title {
-                    color: #272727;
-                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    font-size: 80px;
-                    font-weight: 800;
-                    margin-bottom: 32px;
-                }
-                
-                .description {
-                    color: rgba(39, 39, 39, 0.60);
-                    font-family: montsserrat;
-                    font-size: 18px;
-                    font-weight: 400;
-                    width: 634px;
-                    padding-bottom: 32px;
-                }
-                
-                .btn {
-                    border-radius: 8px;
-                    background: #E55473;
-                    display: inline-flex;
-                    padding: 20px 43px;
-                    align-items: flex-start;
-                    gap: 10px;
-                    color: #FFF;
-                    font-family: montserrat;
-                    font-size: 20px;
-                    font-weight: 700;
-                    margin-bottom: 120px;
-                }
-                /* banner area ended */
-                /* hot deal area started */
-                
-                .hot-deal {
-                    gap: 97px;
-                    padding: 197px 240px 0px 240px;
-                    backound: #E554730D;
-                    height: 620px;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                }
-                
-                .deal-title {
-                    color: #272727;
-                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    font-size: 60px;
-                    font-weight: 800;
-                    margin-bottom: 32px;
-                }
-                
-                .red {
-                    color: red;
-                }
-                
-                .deal-btn {
-                    margin-left: 230px;
-                }
-                /* hot deal area ended */
-                /* latest deal area started */
-                
-                .latest {
-                    background-image: url(images/Rectangle\ 9.png);
-                    height: 100vh;
-                    background-repeat: no-repeat;
-                    margin: 128px 240px 128px 255px;
-                    height: 449px;
-                }
-                
-                .latest-content {}
-                
-                .deal-title {
-                    color: #272727;
-                    text-align: center;
-                    font-family: montserrat;
-                    font-size: 40px;
-                    font-weight: 800;
-                    padding-top: 122px;
-                    padding-left: 30px;
-                }
-                
-                .deal {
-                    padding-left: 450px;
-                }
-                
-                .email {
-                    background: white;
-                    width: 655px;
-                    height: 64px;
-                }
-                
-                .import {
-                    margin-left: 240px;
-                }
-                /* latest area ended */
-                /* footer area started */
-                
-                .footer {
-                    background: black;
-                    height: 450px;
-                }
-                
-                .footer-title {
-                    color: #d52853;
-                    font-family: montserrat;
-                    font-size: 48px;
-                    font-weight: 800;
-                    text-align: center;
-                    padding-top: 127px;
-                    padding-bottom: 25px;
-                }
-                
-                .white {
-                    color: white;
-                }
-                
-                .footer-description {
-                    color: rgba(255, 255, 255, 0.90);
-                    text-align: center;
-                    font-family: montserrat;
-                    font-size: 18px;
-                    font-weight: 400;
-                    line-height: 30px;
-                }
-                
-                .rights {
-                    color: rgba(255, 255, 255, 0.40);
-                    text-align: center;
-                    font-family: montserrat;
-                    font-size: 16px;
-                    font-weight: 400;
-                    padding-bottom: 128px;
-                    padding-top: 32px;
-                }
-                /* footer area ended */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* banner area started */
+
+.banner {
+    gap: 97px;
+    padding: 197px 240px 0px 240px;
+    background: #E554731A;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-title {
+    color: #272727;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: montsserrat;
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    padding-bottom: 32px;
+}
+
+.btn {
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 120px;
+}
+
+
+/* banner area ended */
+
+
+/* instagram area started */
+
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-family: montsserrat;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 128px;
+    margin-bottom: 24px;
+}
+
+.insta-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: montsserrat;
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    padding: 24px 500px;
+    text-align: center;
+    justify-content: center;
+}
+
+.insta-pic {
+    gap: 24px;
+    margin: 48px 240px 128px 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-s {
+    width: 342px;
+    height: 396px;
+}
+
+
+/* instagram area ended */
+
+
+/* hot deal area started */
+
+.hot-deal {
+    gap: 97px;
+    padding: 197px 240px 0px 240px;
+    backound: #E554730D;
+    height: 620px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deal-title {
+    color: #272727;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.red {
+    color: red;
+}
+
+.deal-btn {
+    margin-left: 230px;
+}
+
+
+/* hot deal area ended */
+
+
+/* latest deal area started */
+
+.latest {
+    background-image: url(images/Rectangle\ 9.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: 128px 240px 128px 255px;
+    height: 449px;
+}
+
+.latest-content {}
+
+.deal-title {
+    color: #272727;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+    padding-left: 30px;
+}
+
+.deal {
+    padding-left: 450px;
+}
+
+.email {
+    background: white;
+    width: 655px;
+    height: 64px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.import {
+    margin-left: 240px;
+}
+
+
+/* latest area ended */
+
+
+/* footer area started */
+
+.footer {
+    background: black;
+    height: 450px;
+}
+
+.footer-title {
+    color: #d52853;
+    font-family: montserrat;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 127px;
+    padding-bottom: 25px;
+}
+
+.white {
+    color: white;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.rights {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 128px;
+    padding-top: 32px;
+}
+
+
+/* footer area ended */
+
+rrat;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 128px;
+padding-top: 32px;
+
+}
+
+/* footer area ended */
