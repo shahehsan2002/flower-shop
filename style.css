@@ -4,6 +4,26 @@
 }
 
 
+/* nav area started */
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(162, 34, 40, 0.453);
+    padding: 10px;
+}
+
+.menus {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 26px;
+    font-style: italic;
+    color: white;
+}
+
+
 /* banner area started */
 
 .banner {
